@@ -1,66 +1,48 @@
-# React Blur Admin
-All credit for the theme goes to [akveo](http://akveo.com/blur-admin/), this is just a React implementation.
+[![Build Status](https://travis-ci.org/akveo/blur-admin.svg?branch=master)](https://travis-ci.org/akveo/blur-admin)
 
-Note: This is currently partial implementation of Blur Admin. This repo includes styles from Blur Admin that are required for pages and components to load correctly and the components themselves.
+# BlurAdmin Angular admin panel front-end framework
 
-Individual pages/demos/layouts can be found in the [React Webpack Skeleton repo](https://github.com/knledg/react-webpack-skeleton).
+Customizable admin panel framework made with :heart: by [Akveo team](http://akveo.com/). Follow us on [Twitter](https://twitter.com/akveo_inc) to get latest news about this template first!
 
-### Build Status
+### Demo
+**[Mint version demo](http://akveo.com/blur-admin-mint/)**             |  **[Blur version demo](http://akveo.com/blur-admin/)**
+:-------------------------:|:-------------------------:
+![Mint version demo](http://i.imgur.com/A3TMviJ.png)  |  ![Blur version demo](http://i.imgur.com/EAoiK2O.jpg)
 
-[![CircleCI](https://circleci.com/gh/knledg/react-blur-admin/tree/master.svg?style=svg)](https://circleci.com/gh/knledg/react-blur-admin/tree/master)
+## Angular 2 version
+Here you can find Angular2 based version: [ng2-admin](https://github.com/akveo/ng2-admin).
 
-### Currently Implemented
+### Documentation
+Installation, customization and other useful articles: https://akveo.github.io/blur-admin/
 
-- Text Inputs
-- Buttons
-- Editable Fields
-- Loading Spinner
-- Tables (not including smart tables)
-- Tabs
-- Switches
-- Select Dropdowns
-- Progress Bars
-- Panels
-- Pages
-- Textareas
-- Pagination (diverged from Blur's implementation slightly for additional flexibility)
-- Notifications
-- Alerts
+*If you have problems installing and just want to download JS and css files, you can find download links here*: http://akveo.github.io/blur-admin/articles/091-downloads/
 
-### Needs Implementation
+## How can I support developers?
+- Star our GitHub repo
+- Create pull requests, submit bugs, suggest new features or documentation updates
+- Follow us on [Twitter](https://twitter.com/akveo_inc)
+- Like our page on [Facebook](https://www.facebook.com/akveo/)
 
-- Accordions
-- Sliders
-- Searchable table columns
-- Tags Inputs
+## Can I hire you guys?
+Yes! We are available for hire. Visit [our homepage](http://akveo.com/) or simply leave us a note to contact@akveo.com. We will be happy to work with you!
 
-## Semver
+## Features
+* Responsive layout
+* High resolution
+* Bootstrap CSS Framework
+* Sass
+* Gulp build
+* AngularJS
+* Jquery
+* Charts (amChart, Chartist, Chart.js, Morris)
+* Maps (Google, Leaflet, amMap)
+* etc
 
-Before the v1.0.0 release, a minor update will represent breaking changes and a patch will represent feature enhancements or bug fixes.
+License
+-------------
+<a href=/LICENSE.txt target="_blank">MIT</a> license.
 
-## Contributing
+### From akveo
 
-This is an active project and we'd love your help! Please submit small pull requests. You can make sure tests and lint passes by running `npm run lint && npm run test` before committing.
-
-You can also add the `.git/hooks/pre-push` with the following:
-
-```
-#!/usr/bin/env bash
-
-npm run lint && npm run test
-```
-
-And making it executable with `chmod ugo+x .git/hooks/pre-push`
-
-## Example Usage
-
-A React Webpack Skeleton implementing the layout for React Blur Admin and using it's components will be uploaded and linked shortly. You can see how each component is implemented by looking at the source code for each of the demo pages.
-
-## Dependencies
-- Bootstrap CSS
-- Bootstrap-Select CSS
-- Bootstrap-Switch CSS
-- Blur CSS
-- EventEmitter implemented in lib/event-bus so that notifications can listen for a new notification from anywhere without any specific implementation of flux
-- Utilizes Flexbox for columns/rows
-
+Enjoy!
+We're always happy to hear your feedback.
