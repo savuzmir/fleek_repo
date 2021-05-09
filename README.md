@@ -1,48 +1,79 @@
-[![Build Status](https://travis-ci.org/akveo/blur-admin.svg?branch=master)](https://travis-ci.org/akveo/blur-admin)
+# Dockerized ReactJS application
 
-# BlurAdmin Angular admin panel front-end framework
+![Docker plus React plus Codefresh](docker-reactjs-codefresh.jpg)
 
-Customizable admin panel framework made with :heart: by [Akveo team](http://akveo.com/). Follow us on [Twitter](https://twitter.com/akveo_inc) to get latest news about this template first!
+This is an example Node application that uses React, Yarn and Docker.
+It is packaged using Codefresh.
 
-### Demo
-**[Mint version demo](http://akveo.com/blur-admin-mint/)**             |  **[Blur version demo](http://akveo.com/blur-admin/)**
-:-------------------------:|:-------------------------:
-![Mint version demo](http://i.imgur.com/A3TMviJ.png)  |  ![Blur version demo](http://i.imgur.com/EAoiK2O.jpg)
+More details can be found in [the documentation page](https://codefresh.io/docs/docs/learn-by-example/nodejs/react/).
 
-## Angular 2 version
-Here you can find Angular2 based version: [ng2-admin](https://github.com/akveo/ng2-admin).
 
-### Documentation
-Installation, customization and other useful articles: https://akveo.github.io/blur-admin/
 
-*If you have problems installing and just want to download JS and css files, you can find download links here*: http://akveo.github.io/blur-admin/articles/091-downloads/
+## Instructions
 
-## How can I support developers?
-- Star our GitHub repo
-- Create pull requests, submit bugs, suggest new features or documentation updates
-- Follow us on [Twitter](https://twitter.com/akveo_inc)
-- Like our page on [Facebook](https://www.facebook.com/akveo/)
+To install dependencies 
 
-## Can I hire you guys?
-Yes! We are available for hire. Visit [our homepage](http://akveo.com/) or simply leave us a note to contact@akveo.com. We will be happy to work with you!
+```
+yarn install 
+```
 
-## Features
-* Responsive layout
-* High resolution
-* Bootstrap CSS Framework
-* Sass
-* Gulp build
-* AngularJS
-* Jquery
-* Charts (amChart, Chartist, Chart.js, Morris)
-* Maps (Google, Leaflet, amMap)
-* etc
+or
 
-License
--------------
-<a href=/LICENSE.txt target="_blank">MIT</a> license.
+```
+npm install 
+```
 
-### From akveo
+## To run tests
+
+```
+yarn test 
+```
+
+or
+
+```
+npm test 
+```
+
+## To run the webapp manually
+
+```
+yarn start 
+```
+
+or
+
+```
+npm start 
+```
+
+....and navigate your browser to  http://localhost:3000/
+
+## To create a docker image
+
+```
+docker build -t my-react-app .
+```
+
+
+## To run the docker image
+
+```
+docker run -p 80:80 my-react-app
+```
+
+
+## To use this project in Codefresh 
+
+There is also a [codefresh.yml](codefresh.yml) for easy usage with the [Codefresh](codefresh.io) CI/CD platform.
+
 
 Enjoy!
-We're always happy to hear your feedback.
+
+
+
+
+
+
+
+
